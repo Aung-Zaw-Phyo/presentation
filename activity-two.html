@@ -11,6 +11,7 @@
     />
     <title>The Bird</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="">
@@ -18,13 +19,45 @@
         <img class="w-[80px] h-[80px] rounded-full shadow-xl " src="/images/logo.png" alt="The Bird">
     </div>
     <div class="my-3 w-[85%] md:w-[70%] mx-auto">
-        <h1 class="text-2xl font-semibold text-blue-600 mb-4">Our Main Activities ( Socail Campaign )</h1>
+        <h1 class="text-2xl font-semibold text-blue-600 mb-4">Our Main Activities ( Fundraising by selling )</h1>
         <!-- <img class="h-[75vh] w-[100%] !sm:h-auto mx-auto rounded-lg bg-cover bg-center object-cover" src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/J5MDWFXB6ZPRXK6GV2SN7W7Z5E.jpg" alt=""> -->
-        <img class="h-[75vh] w-[100%] !sm:h-auto mx-auto rounded-lg bg-cover bg-center object-cover" src="images/activity-4.png" alt="">
+        <div class="relative">
+            <img class="h-[75vh] w-[100%] !sm:h-auto mx-auto rounded-lg bg-cover bg-center object-cover" src="images/activity-3.png" alt="">
+            <div class="absolute top-0 bottom-0 left-0 right-0 p-2 sm:p-5 bg-gradient-to-r from-[#33333393] to-black-500">
+                <ul class="text-white text-xl flex flex-col gap-4">
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                    >
+                        Donar appreciation
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                    >
+                        Donate above 10000 kyats
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                    >
+                        Fundraising by selling
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="fixed bottom-0 right-0 p-2 sm:p-6">
         <a href="activity.html" class="bg-indigo-500 text-white py-2 px-6 rounded-sm">Previous</a>
         <a href="activity-three.html" class="bg-indigo-500 text-white py-2 px-6 rounded-sm">Next</a>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
