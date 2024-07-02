@@ -11,6 +11,7 @@
     />
     <title>The Bird</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="h-[99vh] overflow-y-scroll">
@@ -18,16 +19,56 @@
         <img class="w-[200px] h-[200px] rounded-full shadow-xl mx-auto mb-6" src="/images/logo.png" alt="The Bird">
         <div class="flex justify-center items-center">
             <ul class="">
-                <li class="my-2 font-semibold text-lg">Aung Zaw Phyo</li>
-                <li class="my-2 font-semibold text-lg">Aung Phone Khant</li>
-                <li class="my-2 font-semibold text-lg">Aung Min Than</li>
-                <li class="my-2 font-semibold text-lg">Saw Sa Lin Htet</li>
-                <li class="my-2 font-semibold text-lg">Kyaw Min Thu</li>
+                <li 
+                    class="my-5 text-blue-600 font-semibold text-lg"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
+                >
+                    Aung Zaw Phyo
+                </li>
+                <li 
+                    class="my-5 text-blue-600 font-semibold text-lg"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="300"
+                >
+                    Aung Phone Khant
+                </li>
+                <li 
+                    class="my-5 text-blue-600 font-semibold text-lg"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="500"
+                >
+                    Aung Min Than
+                </li>
+                <li 
+                    class="my-5 text-blue-600 font-semibold text-lg"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="700"
+                >
+                    Saw Sa Lin Htet
+                </li>
+                <li 
+                    class="my-5 text-blue-600 font-semibold text-lg"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="900"
+                >
+                    Kyaw Min Thu
+                </li>
             </ul>
         </div>
         <div class="absolute bottom-0 right-0 p-8">
             <a href="purpose.html" class="bg-indigo-500 text-white py-2 px-6 rounded-sm ">Next</a>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
